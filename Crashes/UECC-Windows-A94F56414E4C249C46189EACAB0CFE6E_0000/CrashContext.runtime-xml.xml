@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>E2E02C11424A93C853E5C29819F7A96A</ExecutionGuid>
+		<CrashGUID>UECC-Windows-A94F56414E4C249C46189EACAB0CFE6E_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000000000d4</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>2716</ProcessId>
+		<SecondsSinceStart>94</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Win64-Test-Cmd</ExecutableName>
+		<BuildConfiguration>Test</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsServer</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName>PalServer</DeploymentName>
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>pt-BR</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Win64-Test</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Users/junio/Desktop/HaruHost/_haruhost-data/gameservers/221909ea-b651-4b0f-a1e0-8848a0e5c42b/Pal/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Users/junio/Desktop/HaruHost/_haruhost-data/gameservers/221909ea-b651-4b0f-a1e0-8848a0e5c42b/</RootDir>
+		<MachineId>FD77945A492C56DBD84E4AA8DA98848F</MachineId>
+		<LoginId>fd77945a492c56dbd84e4aa8da98848f</LoginId>
+		<HostName>BEAVISPC</HostName>
+		<EpicAccountId>3fe34cfb616640e68f189743567012c0</EpicAccountId>
+		<SourceContext />
+		<UserDescription>Ronildo Junior</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>12</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>24</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Xeon(R) CPU E5-2678 v3 @ 2.50GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1070 Ti</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (21H2) [10.0.22000.2538]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17077334016</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>79991894016</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+PalServer_Win64_Test_Cmd
+kernel32
+ntdll</CallStack>
+		<PCallStack>PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f4d790 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b19844 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 28cfdc6 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 28a5381 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2948c0e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2958b7d PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 4f7a5c6 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 4b4c999 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 49d190c PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b17592 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b2108c PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b2115a PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b22fb6 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b2bdd4 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 5ccf516 KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</PCallStack>
+		<PCallStackHash>544B89FD7A2EE669ED286A3963F880EF68380E81</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d8704c PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 5d59c7e VCRUNTIME140 0x00007ff9c6430000 + f0e0 ntdll 0x00007ff9d5220000 + a8cdf ntdll 0x00007ff9d5220000 + 35bea ntdll 0x00007ff9d5220000 + a7cce PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f4d790 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b19844 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 28cfdc6 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 28a5381 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2948c0e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2958b7d PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 4f7a5c6 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 4b4c999 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 49d190c PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b17592 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b2108c PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b2115a PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b22fb6 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b2bdd4 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 5ccf516 KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>8680</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bfa18d PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bfb1ca PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2be5e40 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a754 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3344</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bfa18d PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bfb1ca PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2be5e40 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a754 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10288</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c00406 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d58be6 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2ef5763 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2e442be PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2e42bb5 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f1fb16 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f1d17e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f1fedb PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2e442fd PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2e42bb5 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f1fb16 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f1e80f PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f1fedb PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2e442fd PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2e42bb5 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f1fb16 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f1fedb PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2e442fd PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2ee7fdb PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2ee72de PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2ee7170 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 49f6bdf PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2b2acb7 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2b2abe2 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b1acce PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + b1d8c3 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bea3e5 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bea2a0 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bdf4cb PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bfaff2 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2be5e40 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a754 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1892</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bfa18d PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2bfb1ca PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2be5e40 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a754 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12632</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14720</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2be3ff3 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a754 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11060</ThreadID>
+				<ThreadName>Reserve Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2be3ff3 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a754 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3192</ThreadID>
+				<ThreadName>Reserve Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2be3ff3 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a754 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8848</ThreadID>
+				<ThreadName>Reserve Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2be3ff3 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a754 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5404</ThreadID>
+				<ThreadName>Reserve Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a4374 ntdll 0x00007ff9d5220000 + 5b843 KERNELBASE 0x00007ff9d2970000 + 2cef1 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f79441 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5396</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 13a0946 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12980</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d29f2e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a754 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3176</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1488</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13448</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4872</ThreadID>
+				<ThreadName>UnknownThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9680</ThreadID>
+				<ThreadName>UnknownThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11888</ThreadID>
+				<ThreadName>UnknownThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7012</ThreadID>
+				<ThreadName>UnknownThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15056</ThreadID>
+				<ThreadName>UnknownThreadPool #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12532</ThreadID>
+				<ThreadName>UnknownThreadPool #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3144</ThreadID>
+				<ThreadName>UnknownThreadPool #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7560</ThreadID>
+				<ThreadName>UnknownThreadPool #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3664</ThreadID>
+				<ThreadName>UnknownThreadPool #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8108</ThreadID>
+				<ThreadName>UnknownThreadPool #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1448</ThreadID>
+				<ThreadName>UnknownThreadPool #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2c5a54e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2920</ThreadID>
+				<ThreadName>UnknownThreadPool #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 333fc05 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15088</ThreadID>
+				<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a4374 ntdll 0x00007ff9d5220000 + 5b843 KERNELBASE 0x00007ff9d2970000 + 2cef1 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97f2a PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 112cd56 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11224</ThreadID>
+				<ThreadName>LiveLinkMessageBusDiscoveryManager</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 mswsock 0x00007ff9d1bd0000 + 9d55 mswsock 0x00007ff9d1bd0000 + 39d6 WS2_32 0x00007ff9d3530000 + 12402 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f6b049 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2f6dc0e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 214275e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6472</ThreadID>
+				<ThreadName>FTcpListener</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff9d5220000 + a3d74 KERNELBASE 0x00007ff9d2970000 + 50e9e PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d9948b PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2eae5e2 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d97477 PalServer-Win64-Test-Cmd 0x00007ff64c7c0000 + 2d923ba KERNEL32 0x00007ff9d3ea0000 + 153e0 ntdll 0x00007ff9d5220000 + 485b</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11832</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638436962975950000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 11 (21H2) [10.0.22000.2538]  64b]</PlatformFullName>
+		<CPUBrand>Intel(R) Xeon(R) CPU E5-2678 v3 @ 2.50GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Users\junio\Desktop\HaruHost\_haruhost-data\gameservers\221909ea-b651-4b0f-a1e0-8848a0e5c42b\Pal\Binaries\Win64\tbb.dll
+C:\Users\junio\Desktop\HaruHost\_haruhost-data\gameservers\221909ea-b651-4b0f-a1e0-8848a0e5c42b\Pal\Binaries\Win64\PalServer-Win64-Test-Cmd.exe
+C:\Users\junio\Desktop\HaruHost\_haruhost-data\gameservers\221909ea-b651-4b0f-a1e0-8848a0e5c42b\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+C:\Users\junio\Desktop\HaruHost\_haruhost-data\gameservers\221909ea-b651-4b0f-a1e0-8848a0e5c42b\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+C:\Users\junio\Desktop\HaruHost\_haruhost-data\gameservers\221909ea-b651-4b0f-a1e0-8848a0e5c42b\Engine\Binaries\ThirdParty\Steamworks\Steamv153\Win64\steam_api64.dll
+C:\Users\junio\Desktop\HaruHost\_haruhost-data\gameservers\221909ea-b651-4b0f-a1e0-8848a0e5c42b\Engine\Binaries\ThirdParty\Windows\WinPixEventRuntime\x64\WinPixEventRuntime.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>WindowsServer</DeviceProfile.Name>
+		<NumClients>1</NumClients>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.4.1&quot;, &quot;callstackhash&quot;: &quot;3E7E575F2CBE1D10501D5B462434D350ECFEF61F&quot;,&quot;revision&quot;: &quot;47558&quot;, &quot;platform&quot;: &quot;Windows&quot;, &quot;players&quot;: &quot;0&quot;, &quot;session_id&quot;: &quot;steam_null_1708099404&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
