@@ -1,0 +1,51 @@
+Generating report for minidump
+
+Application version 5.1.1.0
+ ... built from changelist 0
+
+OS version Linux 6.2.16-3-pve (network name: palworld)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x00000001b7030040"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libc.so.6!UnknownFunction(0xc49bf)
+PalServer-Linux-Test!TMemoryWriter<32>::Serialize(void*, long long) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Public/Serialization/MemoryWriter.h:59]
+PalServer-Linux-Test!FArrayProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyArray.cpp:367]
+PalServer-Linux-Test!FPropertyTag::SerializeTaggedProperty(FStructuredArchiveSlot, FProperty*, unsigned char*, unsigned char*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyTag.cpp:253]
+PalServer-Linux-Test!UStruct::SerializeVersionedTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1587]
+PalServer-Linux-Test!UScriptStruct::SerializeItem(FStructuredArchiveSlot, void*, void const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:2804]
+PalServer-Linux-Test!FStructProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyStruct.cpp:170]
+PalServer-Linux-Test!FArrayProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyArray.cpp:367]
+PalServer-Linux-Test!FPropertyTag::SerializeTaggedProperty(FStructuredArchiveSlot, FProperty*, unsigned char*, unsigned char*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyTag.cpp:253]
+PalServer-Linux-Test!UStruct::SerializeVersionedTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1587]
+PalServer-Linux-Test!UScriptStruct::SerializeItem(FStructuredArchiveSlot, void*, void const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:2804]
+PalServer-Linux-Test!FStructProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyStruct.cpp:170]
+PalServer-Linux-Test!FMapProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyMap.cpp:517]
+PalServer-Linux-Test!FPropertyTag::SerializeTaggedProperty(FStructuredArchiveSlot, FProperty*, unsigned char*, unsigned char*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyTag.cpp:253]
+PalServer-Linux-Test!UStruct::SerializeVersionedTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1587]
+PalServer-Linux-Test!UScriptStruct::SerializeItem(FStructuredArchiveSlot, void*, void const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:2804]
+PalServer-Linux-Test!FStructProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyStruct.cpp:170]
+PalServer-Linux-Test!FPropertyTag::SerializeTaggedProperty(FStructuredArchiveSlot, FProperty*, unsigned char*, unsigned char*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyTag.cpp:253]
+PalServer-Linux-Test!UStruct::SerializeVersionedTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1587]
+PalServer-Linux-Test!UObject::SerializeScriptProperties(FStructuredArchiveSlot) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1633]
+PalServer-Linux-Test!UObject::Serialize(FStructuredArchiveRecord) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1450]
+PalServer-Linux-Test!UObject::Serialize(FArchive&) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1338]
+PalServer-Linux-Test!UGameplayStatics::SaveGameToMemory(USaveGame*, TArray<unsigned char, TSizedDefaultAllocator<32> >&) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/GameplayStatics.cpp:2326]
+PalServer-Linux-Test!FAutoDeleteAsyncTask<UPalSaveGameManager::PalAsyncSaveGameToSlot(USaveGame*, FString const&, int, TDelegate<void (FString const&, int, bool), FDefaultDelegateUserPolicy>)::FZipAsyncSave>::DoWork() [D:/works/repos/Pal_SVN/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Async/AsyncWork.h:109]
+PalServer-Linux-Test!LowLevelTasks::TTaskDelegate<LowLevelTasks::FTask* (bool), 48u>::TTaskDelegateImpl<void LowLevelTasks::FTask::Init<FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority)::'lambda'()>(char16_t const*, LowLevelTasks::ETaskPriority, FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority)::'lambda'()&&, LowLevelTasks::ETaskFlags)::'lambda'(bool), false>::CallAndMove(LowLevelTasks::TTaskDelegate<LowLevelTasks::FTask* (bool), 48u>&, void*, unsigned int, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Public/Async/Fundamental/TaskDelegate.h:171]
+PalServer-Linux-Test!LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/Fundamental/Scheduler.cpp:184]
+PalServer-Linux-Test!LowLevelTasks::FScheduler::WorkerMain(LowLevelTasks::FSleepEvent*, LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue*, unsigned int, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/Fundamental/Scheduler.cpp:402]
+PalServer-Linux-Test!FThreadImpl::Run() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/HAL/Thread.cpp:67]
+PalServer-Linux-Test!FRunnableThreadPThread::Run() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+PalServer-Linux-Test!FRunnableThreadPThread::_ThreadProc(void*) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:185]
+libc.so.6!UnknownFunction(0x94ac2)
+libc.so.6!UnknownFunction(0x12684f)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

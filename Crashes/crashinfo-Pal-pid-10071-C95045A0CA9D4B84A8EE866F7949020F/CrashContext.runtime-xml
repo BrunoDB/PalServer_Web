@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>767AF2205BBC4E21AED24757B6B99EBB</ExecutionGuid>
+		<CrashGUID>UECC-Linux-5A6F38CA0CE34306BE3858FCD7B79B59_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Hang</CrashType>
+		<ErrorMessage>Hang detected on GameThread: 0x0000000006cf980b PalServer-Linux-Test!ThreadStackWalker(int, siginfo_t*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1034] 0x00007eff4b842520 libc.so.6!UnknownFunction(0x4251f) 0x0000000004ec423f PalServer-Linux-Test!TSparseArray&lt;TSetElement&lt;TTuple&lt;AActor*, UReplicationGraphNode_GridSpatialization2D::FCachedDynamicActorInfo&gt; &gt;, TSparseArrayAllocator&lt;TSizedDefaultAllocator&lt;32&gt;, FDefaultBitArrayAllocator&gt; &gt;::AddUninitialized() [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Public/Containers/SparseArray.h:133] Check log for full callstack.</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>10071</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Test</ExecutableName>
+		<BuildConfiguration>Test</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Test</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/steam/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/home/steam/Steam/steamapps/common/PalServer/</RootDir>
+		<MachineId>1FDF8C5EC2B14F30BDC0576070AF5F48-000003EA</MachineId>
+		<LoginId>1fdf8c5ec2b14f30bdc0576070af5f48-000003ea</LoginId>
+		<HostName>palworld</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Xeon(R) CPU E31270 @ 3.40GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>UnknownVendor</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Ubuntu 22.04 LTS</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>6.2.16-3-pve</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>25130024960</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>8589930496</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>24</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>PalServer-Linux-Test 0x0000000000200000 + 6af980b libc.so 0x00007eff4b800000 + 42520 PalServer-Linux-Test 0x0000000000200000 + 4cc423f PalServer-Linux-Test 0x0000000000200000 + 4cc4085 PalServer-Linux-Test 0x0000000000200000 + 4ca6fd1 PalServer-Linux-Test 0x0000000000200000 + 4c90f87 PalServer-Linux-Test 0x0000000000200000 + 4c9770f PalServer-Linux-Test 0x0000000000200000 + a199e5a PalServer-Linux-Test 0x0000000000200000 + 9b2aa3d PalServer-Linux-Test 0x0000000000200000 + 99cdb36 PalServer-Linux-Test 0x0000000000200000 + 6731f7d PalServer-Linux-Test 0x0000000000200000 + 67108c6 PalServer-Linux-Test 0x0000000000200000 + 6722ba0 PalServer-Linux-Test 0x0000000000200000 + 6732eb3 PalServer-Linux-Test 0x0000000000200000 + 672e35f PalServer-Linux-Test 0x0000000000200000 + 65b9d59 PalServer-Linux-Test 0x0000000000200000 + 659273f PalServer-Linux-Test 0x0000000000200000 + a0796ba PalServer-Linux-Test 0x0000000000200000 + 9b51de4 PalServer-Linux-Test 0x0000000000200000 + 998a654 PalServer-Linux-Test 0x0000000000200000 + 3d327be PalServer-Linux-Test 0x0000000000200000 + 3d338ca PalServer-Linux-Test 0x0000000000200000 + a77e718 libc.so 0x00007eff4b800000 + 29d90 libc.so 0x00007eff4b800000 + 29e40 PalServer-Linux-Test 0x0000000000200000 + 3d31029</PCallStack>
+		<PCallStackHash>62644EA4002B3C8CB2BFC63DDDE1DFBEE350D3B5</PCallStackHash>
+		<TimeOfCrash>638446122447130000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [Ubuntu 22.04 LTS 6.2.16-3-pve 64b]</PlatformFullName>
+		<CPUBrand>Intel(R) Xeon(R) CPU E31270 @ 3.40GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>0</CrashSignal>
+		<CrashSignalName>Unknown signal 0</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.4.1&quot;, &quot;callstackhash&quot;: &quot;DA39A3EE5E6B4B0D3255BFEF95601890AFD80709&quot;,&quot;revision&quot;: &quot;47558&quot;, &quot;platform&quot;: &quot;Linux&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
