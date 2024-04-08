@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>767AF2205BBC4E21AED24757B6B99EBB</ExecutionGuid>
+		<CrashGUID>UECC-Linux-5A6F38CA0CE34306BE3858FCD7B79B59_0001</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Caught signal 11 Segmentation fault</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>10071</ProcessId>
+		<SecondsSinceStart>38196</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Test</ExecutableName>
+		<BuildConfiguration>Test</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Test</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>true</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/steam/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/home/steam/Steam/steamapps/common/PalServer/</RootDir>
+		<MachineId>1FDF8C5EC2B14F30BDC0576070AF5F48-000003EA</MachineId>
+		<LoginId>1fdf8c5ec2b14f30bdc0576070af5f48-000003ea</LoginId>
+		<HostName>palworld</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Xeon(R) CPU E31270 @ 3.40GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>UnknownVendor</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Ubuntu 22.04 LTS</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>6.2.16-3-pve</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>25130024960</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>8589930496</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>24</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>9243648000</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>8536866816</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>7974088704</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>11825307648</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>13730033664</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>16560185344</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>libc.so.6!UnknownFunction(0xc49bf)
+PalServer-Linux-Test!TMemoryWriter&lt;32&gt;::Serialize(void*, long long) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Public/Serialization/MemoryWriter.h:59]
+PalServer-Linux-Test!FArrayProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyArray.cpp:367]
+PalServer-Linux-Test!FPropertyTag::SerializeTaggedProperty(FStructuredArchiveSlot, FProperty*, unsigned char*, unsigned char*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyTag.cpp:253]
+PalServer-Linux-Test!UStruct::SerializeVersionedTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1587]
+PalServer-Linux-Test!UScriptStruct::SerializeItem(FStructuredArchiveSlot, void*, void const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:2804]
+PalServer-Linux-Test!FStructProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyStruct.cpp:170]
+PalServer-Linux-Test!FArrayProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyArray.cpp:367]
+PalServer-Linux-Test!FPropertyTag::SerializeTaggedProperty(FStructuredArchiveSlot, FProperty*, unsigned char*, unsigned char*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyTag.cpp:253]
+PalServer-Linux-Test!UStruct::SerializeVersionedTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1587]
+PalServer-Linux-Test!UScriptStruct::SerializeItem(FStructuredArchiveSlot, void*, void const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:2804]
+PalServer-Linux-Test!FStructProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyStruct.cpp:170]
+PalServer-Linux-Test!FMapProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyMap.cpp:517]
+PalServer-Linux-Test!FPropertyTag::SerializeTaggedProperty(FStructuredArchiveSlot, FProperty*, unsigned char*, unsigned char*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyTag.cpp:253]
+PalServer-Linux-Test!UStruct::SerializeVersionedTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1587]
+PalServer-Linux-Test!UScriptStruct::SerializeItem(FStructuredArchiveSlot, void*, void const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:2804]
+PalServer-Linux-Test!FStructProperty::SerializeItem(FStructuredArchiveSlot, void*, void const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyStruct.cpp:170]
+PalServer-Linux-Test!FPropertyTag::SerializeTaggedProperty(FStructuredArchiveSlot, FProperty*, unsigned char*, unsigned char*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/PropertyTag.cpp:253]
+PalServer-Linux-Test!UStruct::SerializeVersionedTaggedProperties(FStructuredArchiveSlot, unsigned char*, UStruct*, unsigned char*, UObject const*) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:1587]
+PalServer-Linux-Test!UObject::SerializeScriptProperties(FStructuredArchiveSlot) const [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1633]
+PalServer-Linux-Test!UObject::Serialize(FStructuredArchiveRecord) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1450]
+PalServer-Linux-Test!UObject::Serialize(FArchive&amp;) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:1338]
+PalServer-Linux-Test!UGameplayStatics::SaveGameToMemory(USaveGame*, TArray&lt;unsigned char, TSizedDefaultAllocator&lt;32&gt; &gt;&amp;) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/GameplayStatics.cpp:2326]
+PalServer-Linux-Test!FAutoDeleteAsyncTask&lt;UPalSaveGameManager::PalAsyncSaveGameToSlot(USaveGame*, FString const&amp;, int, TDelegate&lt;void (FString const&amp;, int, bool), FDefaultDelegateUserPolicy&gt;)::FZipAsyncSave&gt;::DoWork() [D:/works/repos/Pal_SVN/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Async/AsyncWork.h:109]
+PalServer-Linux-Test!LowLevelTasks::TTaskDelegate&lt;LowLevelTasks::FTask* (bool), 48u&gt;::TTaskDelegateImpl&lt;void LowLevelTasks::FTask::Init&lt;FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority)::&apos;lambda&apos;()&gt;(char16_t const*, LowLevelTasks::ETaskPriority, FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority)::&apos;lambda&apos;()&amp;&amp;, LowLevelTasks::ETaskFlags)::&apos;lambda&apos;(bool), false&gt;::CallAndMove(LowLevelTasks::TTaskDelegate&lt;LowLevelTasks::FTask* (bool), 48u&gt;&amp;, void*, unsigned int, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Public/Async/Fundamental/TaskDelegate.h:171]
+PalServer-Linux-Test!LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&amp;) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/Fundamental/Scheduler.cpp:184]
+PalServer-Linux-Test!LowLevelTasks::FScheduler::WorkerMain(LowLevelTasks::FSleepEvent*, LowLevelTasks::TLocalQueueRegistry&lt;1024u&gt;::TLocalQueue*, unsigned int, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Async/Fundamental/Scheduler.cpp:402]
+PalServer-Linux-Test!FThreadImpl::Run() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/HAL/Thread.cpp:67]
+PalServer-Linux-Test!FRunnableThreadPThread::Run() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+PalServer-Linux-Test!FRunnableThreadPThread::_ThreadProc(void*) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:185]
+libc.so.6!UnknownFunction(0x94ac2)
+libc.so.6!UnknownFunction(0x12684f)
+</CallStack>
+		<PCallStack>libc.so 0x00007eff4b800000 + c49bf PalServer-Linux-Test 0x0000000000200000 + 40b2c66 PalServer-Linux-Test 0x0000000000200000 + 6d176a5 PalServer-Linux-Test 0x0000000000200000 + 6d389c0 PalServer-Linux-Test 0x0000000000200000 + 6be7313 PalServer-Linux-Test 0x0000000000200000 + 6beba80 PalServer-Linux-Test 0x0000000000200000 + 6d3a806 PalServer-Linux-Test 0x0000000000200000 + 6d176a5 PalServer-Linux-Test 0x0000000000200000 + 6d389c0 PalServer-Linux-Test 0x0000000000200000 + 6be7313 PalServer-Linux-Test 0x0000000000200000 + 6beba80 PalServer-Linux-Test 0x0000000000200000 + 6d3a806 PalServer-Linux-Test 0x0000000000200000 + 6d247fc PalServer-Linux-Test 0x0000000000200000 + 6d389c0 PalServer-Linux-Test 0x0000000000200000 + 6be7313 PalServer-Linux-Test 0x0000000000200000 + 6beba80 PalServer-Linux-Test 0x0000000000200000 + 6d3a806 PalServer-Linux-Test 0x0000000000200000 + 6d389c0 PalServer-Linux-Test 0x0000000000200000 + 6be7313 PalServer-Linux-Test 0x0000000000200000 + 6ced16f PalServer-Linux-Test 0x0000000000200000 + 6cea036 PalServer-Linux-Test 0x0000000000200000 + 6ced0dd PalServer-Linux-Test 0x0000000000200000 + 99d08b8 PalServer-Linux-Test 0x0000000000200000 + 681c0ec PalServer-Linux-Test 0x0000000000200000 + 3d43278 PalServer-Linux-Test 0x0000000000200000 + 68e224d PalServer-Linux-Test 0x0000000000200000 + 68e30db PalServer-Linux-Test 0x0000000000200000 + 699dfcf PalServer-Linux-Test 0x0000000000200000 + 6978524 PalServer-Linux-Test 0x0000000000200000 + 694ae50 libc.so 0x00007eff4b800000 + 94ac3 libc.so 0x00007eff4b800000 + 126850</PCallStack>
+		<PCallStackHash>769B9B989B6CD87FDD4FC0502B6010EA1ED53DAC</PCallStackHash>
+		<TimeOfCrash>638446504053220000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [Ubuntu 22.04 LTS 6.2.16-3-pve 64b]</PlatformFullName>
+		<CPUBrand>Intel(R) Xeon(R) CPU E31270 @ 3.40GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>11</CrashSignal>
+		<CrashSignalName>Segmentation fault</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+		<NumClients>0</NumClients>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.4.1&quot;, &quot;callstackhash&quot;: &quot;69D496E5BA92F92FB875FA45044FAB0394D4B524&quot;,&quot;revision&quot;: &quot;47558&quot;, &quot;platform&quot;: &quot;Linux&quot;, &quot;players&quot;: &quot;0&quot;, &quot;session_id&quot;: &quot;steam_null_1709015405&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>

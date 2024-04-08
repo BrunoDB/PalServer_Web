@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>EF984C411C9243DD8ADC33873AD17D49</ExecutionGuid>
+		<CrashGUID>UECC-Linux-FD06AD08B9B14E2F9F9E13013F1AEBCF_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Hang</CrashType>
+		<ErrorMessage>Hang detected on GameThread: 0x0000000006d16abb PalServer-Linux-Test!ThreadStackWalker(int, siginfo_t*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1034] 0x00007fd609e3c460 libc.so.6!UnknownFunction(0x3c45f) 0x00007fd609ead09f libc.so.6!UnknownFunction(0xad09e) 0x0000000006b7d445 PalServer-Linux-Test!FMallocBinned2::ReallocExternal(void*, unsigned long, unsigned int) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/HAL/MallocBinned2.cpp:1053] 0x0000000007a9d356 PalServer-Linux-Test!TArray&lt;Chaos::TArrayAsMap&lt;Chaos::FAccelerationStructureHandle, Chaos::FAABBTreePayloadInfo&gt;::FEntry, TSizedDefaultAllocator&lt;32&gt; &gt;::ResizeGrow(int) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Core/Public/Containers/Array.h:3024] Check log for full callstack.</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>311952</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Test</ExecutableName>
+		<BuildConfiguration>Test</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Test</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/steam/.local/share/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/home/steam/.local/share/Steam/steamapps/common/PalServer/</RootDir>
+		<MachineId>DF5C09B43B1441CE9FE5D5D2299C51E4-000003EA</MachineId>
+		<LoginId>df5c09b43b1441ce9fe5d5d2299c51e4-000003ea</LoginId>
+		<HostName>ubuntu-i5</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>UnknownVendor PCI-id: 1234-1111 (1af4-1100)</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Ubuntu 23.04</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>6.2.0-39-generic</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>8318124032</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>2147479552</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>PalServer-Linux-Test 0x0000000000200000 + 6b16abb libc.so 0x00007fd609e00000 + 3c460 libc.so 0x00007fd609e00000 + ad09f PalServer-Linux-Test 0x0000000000200000 + 697d445 PalServer-Linux-Test 0x0000000000200000 + 789d356 PalServer-Linux-Test 0x0000000000200000 + 7898f46 PalServer-Linux-Test 0x0000000000200000 + 805591e PalServer-Linux-Test 0x0000000000200000 + 9d63b1a PalServer-Linux-Test 0x0000000000200000 + 9d8a920 PalServer-Linux-Test 0x0000000000200000 + 9d54c20 PalServer-Linux-Test 0x0000000000200000 + 981707b PalServer-Linux-Test 0x0000000000200000 + 98a4d29 PalServer-Linux-Test 0x0000000000200000 + 97ab8da PalServer-Linux-Test 0x0000000000200000 + 9e2a8ac PalServer-Linux-Test 0x0000000000200000 + 98ace29 PalServer-Linux-Test 0x0000000000200000 + 65f71f2 PalServer-Linux-Test 0x0000000000200000 + 65f7033 PalServer-Linux-Test 0x0000000000200000 + 65f9094 PalServer-Linux-Test 0x0000000000200000 + 65f8dcb PalServer-Linux-Test 0x0000000000200000 + 66f7b78 PalServer-Linux-Test 0x0000000000200000 + 65f8453 PalServer-Linux-Test 0x0000000000200000 + 9541cac PalServer-Linux-Test 0x0000000000200000 + 95418b0 PalServer-Linux-Test 0x0000000000200000 + 9535873 PalServer-Linux-Test 0x0000000000200000 + 99d2b45 PalServer-Linux-Test 0x0000000000200000 + 6749f2e PalServer-Linux-Test 0x0000000000200000 + 6727f36 PalServer-Linux-Test 0x0000000000200000 + 673a240 PalServer-Linux-Test 0x0000000000200000 + 674ae13 PalServer-Linux-Test 0x0000000000200000 + 67462bf PalServer-Linux-Test 0x0000000000200000 + 65cbe19 PalServer-Linux-Test 0x0000000000200000 + 65a29ff PalServer-Linux-Test 0x0000000000200000 + a0960fa PalServer-Linux-Test 0x0000000000200000 + 9b6e974 PalServer-Linux-Test 0x0000000000200000 + 99a71d4 PalServer-Linux-Test 0x0000000000200000 + 3d3e7be PalServer-Linux-Test 0x0000000000200000 + 3d3f8ca PalServer-Linux-Test 0x0000000000200000 + a79ae58 libc.so 0x00007fd609e00000 + 23a90 libc.so 0x00007fd609e00000 + 23b49 PalServer-Linux-Test 0x0000000000200000 + 3d3d029</PCallStack>
+		<PCallStackHash>6E73EA77FFE5E1AB70D526E08F4259E69DC26375</PCallStackHash>
+		<TimeOfCrash>638462241920770000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [Ubuntu 23.04 6.2.0-39-generic 64b]</PlatformFullName>
+		<CPUBrand>Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>0</CrashSignal>
+		<CrashSignalName>Unknown signal 0</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.5.1&quot;, &quot;callstackhash&quot;: &quot;DA39A3EE5E6B4B0D3255BFEF95601890AFD80709&quot;,&quot;revision&quot;: &quot;48614&quot;, &quot;platform&quot;: &quot;Linux&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
