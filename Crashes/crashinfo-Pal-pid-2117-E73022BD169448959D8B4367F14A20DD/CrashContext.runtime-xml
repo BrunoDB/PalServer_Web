@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>FC70BA936FBE4955A4F54CAABAD2F963</ExecutionGuid>
+		<CrashGUID>UECC-Linux-85EE4164E8D54E8183D7AC4DC4C5053D_0002</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Hang</CrashType>
+		<ErrorMessage>Hang detected on GameThread: 0x0000000006a7ee3b PalServer-Linux-Shipping!ThreadStackWalker(int, siginfo_t*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1034] 0x00007f2a9083c460 libc.so.6!UnknownFunction(0x3c45f) 0x00007f2a9090c61a libc.so.6!__close(+0x39) 0x0000000006a8fbf9 PalServer-Linux-Shipping!FFileHandleUnix::~FFileHandleUnix() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformFile.cpp:119] 0x000000000690223e PalServer-Linux-Shipping!IPlatformFile::CopyFile(char16_t const*, char16_t const*, EPlatformFileRead, EPlatformFileWrite) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/GenericPlatform/GenericPlatformFile.cpp:793] Check log for full callstack.</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>2117</ProcessId>
+		<SecondsSinceStart>14433</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Shipping</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/steam/.local/share/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/home/steam/.local/share/Steam/steamapps/common/PalServer/</RootDir>
+		<MachineId>DF5C09B43B1441CE9FE5D5D2299C51E4-000003EA</MachineId>
+		<LoginId>df5c09b43b1441ce9fe5d5d2299c51e4-000003ea</LoginId>
+		<HostName>ubuntu-i5</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>UnknownVendor PCI-id: 1234-1111 (1af4-1100)</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Ubuntu 23.04</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>6.2.0-39-generic</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>8318124032</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>2147479552</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>PalServer-Linux-Shipping 0x0000000000200000 + 687ee3b libc.so 0x00007f2a90800000 + 3c460 libc.so 0x00007f2a90800000 + 10c61a PalServer-Linux-Shipping 0x0000000000200000 + 688fbf9 PalServer-Linux-Shipping 0x0000000000200000 + 670223e PalServer-Linux-Shipping 0x0000000000200000 + 6881d9b PalServer-Linux-Shipping 0x0000000000200000 + 8d1efeb PalServer-Linux-Shipping 0x0000000000200000 + 6711920 PalServer-Linux-Shipping 0x0000000000200000 + 67160e9 PalServer-Linux-Shipping 0x0000000000200000 + 6890b87 PalServer-Linux-Shipping 0x0000000000200000 + 6881c8c PalServer-Linux-Shipping 0x0000000000200000 + 6881a2e PalServer-Linux-Shipping 0x0000000000200000 + 6701627 PalServer-Linux-Shipping 0x0000000000200000 + 8d30ea6 PalServer-Linux-Shipping 0x0000000000200000 + 670235c PalServer-Linux-Shipping 0x0000000000200000 + 65bfe52 PalServer-Linux-Shipping 0x0000000000200000 + 65e6f60 PalServer-Linux-Shipping 0x0000000000200000 + 65e6e5f PalServer-Linux-Shipping 0x0000000000200000 + 65e92d4 PalServer-Linux-Shipping 0x0000000000200000 + 66ef0cf PalServer-Linux-Shipping 0x0000000000200000 + 3b4029a PalServer-Linux-Shipping 0x0000000000200000 + 3b40aaa PalServer-Linux-Shipping 0x0000000000200000 + 9e1ca70 libc.so 0x00007f2a90800000 + 23a90 libc.so 0x00007f2a90800000 + 23b49 PalServer-Linux-Shipping 0x0000000000200000 + 3b3f029</PCallStack>
+		<PCallStackHash>9A6926B1011B6A2EC65EA03FD0495799F692FC44</PCallStackHash>
+		<TimeOfCrash>638500347388200000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [Ubuntu 23.04 6.2.0-39-generic 64b]</PlatformFullName>
+		<CPUBrand>Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>0</CrashSignal>
+		<CrashSignalName>Unknown signal 0</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.2.1.0&quot;, &quot;callstackhash&quot;: &quot;DA39A3EE5E6B4B0D3255BFEF95601890AFD80709&quot;,&quot;revision&quot;: &quot;50653&quot;, &quot;build_config&quot;: &quot;shipping&quot;, &quot;platform&quot;: &quot;Linux&quot;, &quot;players&quot;: &quot;0&quot;, &quot;session_id&quot;: &quot;steam_null_1714423512&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
